@@ -21,5 +21,38 @@
 </head>
 
 <body>
-    <h1>Hello</h1>
+    <!-- Popup Window -->
+    <div style="position: relative;width: 100%;overflow: hidden;" id="iframe-container"></div>
+    <div id="blocking-layer"></div>
+
+
+    <!-- Pano View -->
+    <iframe id="panoView" style="width: 100%; height: 100%"></iframe>
+
+
+    <script>
+        window.onload = function(e) {
+
+            const queryString = window.location.search;
+            console.log(queryString);
+            const urlParams = new URLSearchParams(queryString);
+
+            const projectName = urlParams.get('project')
+            console.log(projectName);
+
+            const id = urlParams.get('id')
+            console.log(id);
+
+            var projectSrc = "./projects/" + projectName + "/panoview.html"
+            document.getElementById("panoView").src = projectSrc;
+            
+            //ex
+            //http://127.0.0.1:51470/public/index.html?project=아모잘탄
+        }
+    </script>
+
+
+
+    <!-- Custom Javascript file -->
+    <script type="text/javascript" src="js/script.js"></script>
 </body></html>
