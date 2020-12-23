@@ -1,0 +1,31 @@
+[data-toggle="collapse"]:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.card-header .btn:not(.collapsed):after {
+  content: "hide";
+  color: #fff;
+  position: absolute;
+  right: 25px;
+  top: 18px;
+}
+
+.card-header .btn {
+  color: #0d2a4a;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.card-header .btn:after {
+  content: "show";
+  color: #999;
+  position: absolute;
+  right: 25px;
+  top: 18px;
+  text-transform: capitalize;
+}
+
+#accordion .card-header {
+  background-color: #c7c8c8;
+}

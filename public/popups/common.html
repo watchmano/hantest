@@ -1,0 +1,426 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- jquery UI -->
+    <link rel="stylesheet" href="./css/jquery-ui.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    
+<!--BODY START-->
+<ul class="nav nav-tabs">
+  <li class="nav-item">
+    <a class="nav-link active" data-toggle="tab" href="#home">Home</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" data-toggle="tab" href="#profile">FAQ</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" data-toggle="tab" href="#guestBook">Guest Book</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" data-toggle="tab" href="#forum">Forum</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" data-toggle="tab" href="#brochure">Brochure</a>
+  </li>
+  <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+    <div class="dropdown-menu" style="">
+      <a class="dropdown-item" href="#">Action</a>
+      <a class="dropdown-item" href="#">Another action</a>
+      <a class="dropdown-item" href="#">Something else here</a>
+      <div class="dropdown-divider"></div>
+      <a class="dropdown-item" href="#">Separated link</a>
+    </div>
+  </li>
+
+  <button style="color:#495057; right: 10px; top: 5px;" type="button" class="btn btn-sm btn-white position-fixed"><i class="fas fa-times"></i></button>
+</ul>
+
+  <!-- tab contents -->
+<div id="myTabContent" class="tab-content">
+  <!-- video contents -->
+  <div class="tab-pane fade active show" id="home">
+      
+      <div style="height:450px;" class="d-flex flex-row">
+        <div style="width:70%; height:100%;" class="p-2">
+          
+          <iframe width="100%" height="100%" src="https://www.youtube.com/embed/6fWU0e6W8QY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          
+        </div>
+        <div style="width:30%; height:100%;" class="pr-2 py-2">
+          <div class="card h-100" style="">
+            <div class="card-header">Header</div>
+            <div class="card-body p-0 ">
+                <div class="list-group">
+                    <a href="#" class="list-group-item list-group-item-action active">Cras justo odio</a>
+                    <a href="#" class="list-group-item list-group-item-action">Dapibus ac facilisis in</a>
+                    <a href="#" class="list-group-item list-group-item-action">Morbi leo risus</a>
+                    <a href="#" class="list-group-item list-group-item-action">Cras justo odio</a>
+                    <a href="#" class="list-group-item list-group-item-action">Cras justo odio</a>
+                    <a href="#" class="list-group-item list-group-item-action">Cras justo odio</a>
+                    <a href="#" class="list-group-item list-group-item-action text-white">NONE</a>
+                    <a href="#" class="list-group-item list-group-item-action disabled text-white">NONE</a>
+                  </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+      
+      
+      
+  </div>
+  <!-- FAQ contents -->
+  <div class="tab-pane fade" id="profile">
+    <div style="height:450px;" class="d-flex flex-row">
+      <div style="width:70%; height:100%;" class="p-2 overflow-auto">
+        <div class="py-3 px-2 h-100" id="accordion">
+          <div class="card mb-3">
+            <div class="card-header" id="headingOne">
+              <h5 class="mb-0">
+                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                   Collapsible Group Item #1
+                </button>
+              </h5>
+            </div>
+        
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+              
+              <div class="card-body">
+                
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3">
+            <div class="card-header" id="headingTwo">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Collapsible Group Item #2
+                </button>
+              </h5>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+              <div class="card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3">
+            <div class="card-header" id="headingThree">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Collapsible Group Item #3
+                </button>
+              </h5>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+              <div class="card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3">
+            <div class="card-header" id="headingFour">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  Collapsible Group Item #3
+                </button>
+              </h5>
+            </div>
+            <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+              <div class="card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3">
+            <div class="card-header" id="headingSix">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                  Collapsible Group Item #3
+                </button>
+              </h5>
+            </div>
+            <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
+              <div class="card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3">
+            <div class="card-header" id="headingSeven">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                  Collapsible Group Item #3
+                </button>
+              </h5>
+            </div>
+            <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordion">
+              <div class="card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div style="width:30%; height:100%;" class="pr-2 py-2">
+        <div class="card h-100" style="">
+          <div class="card-header">Header</div>
+          <div class="card-body p-0 ">
+              <div class="list-group">
+                  <a href="#" class="list-group-item list-group-item-action active">Cras justo odio</a>
+                  <a href="#" class="list-group-item list-group-item-action">Dapibus ac facilisis in</a>
+                  <a href="#" class="list-group-item list-group-item-action">Morbi leo risus</a>
+                  <a href="#" class="list-group-item list-group-item-action">Cras justo odio</a>
+                  <a href="#" class="list-group-item list-group-item-action">Cras justo odio</a>
+                  <a href="#" class="list-group-item list-group-item-action">Cras justo odio</a>
+                  <a href="#" class="list-group-item list-group-item-action text-white">NONE</a>
+                  <a href="#" class="list-group-item list-group-item-action disabled text-white">NONE</a>
+                </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+  
+  </div>
+  <!-- Guest Book -->
+  <div class="tab-pane fade" id="guestBook">
+    <div style="height:450px;" class="d-flex flex-row">
+      <div style="width:70%; height:100%;" class="p-2">
+        <div class="container-fluid mt-100">
+          <div class="row">
+              <div class="col-md-12">
+                  <div class="card mb-4">
+                      <div class="card-header">
+                          <div class="media flex-wrap w-100 align-items-center"> <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1574583246/AAA/2.jpg" class="d-block ui-w-40 rounded-circle" alt="">
+                              <div class="media-body ml-3"> <a href="javascript:void(0)" data-abc="true">Tom Harry</a>
+                                  <div class="text-muted small">13 days ago</div>
+                              </div>
+                              <div class="text-muted small ml-3">
+                                  <div>Member since <strong>01/1/2019</strong></div>
+                                  <div><strong>134</strong> posts</div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="card-body">
+                          <p> For me, getting my business website made was a lot of tech wizardry things. Thankfully i get an ad on Facebook ragarding commence website. I get connected with BBB team. They made my stunning website live in just 3 days.
+                              With the increase demand of online customers. I had to take my business online. BBB Team guided me at each step and enabled me to centralise my work and have control on all aspect of my online business.
+                          </p>
+                          <p> For me, getting my business website made was a lot of tech wizardry things. Thankfully i get an ad on Facebook ragarding commence website. I get connected with BBB team. They made my stunning website live in just 3 days.
+                              With the increase demand of online customers. I had to take my business online. BBB Team guided me at each step and enabled me to centralise my work and have control on all aspect of my online business.
+                          </p>
+                      </div>
+                      <div class="card-footer d-flex flex-wrap justify-content-between align-items-center px-0 pt-0 pb-3">
+                          <div class="px-4 pt-3"> <a href="javascript:void(0)" class="text-muted d-inline-flex align-items-center align-middle" data-abc="true"> <i class="fa fa-heart text-danger"></i>&nbsp; <span class="align-middle">445</span> </a> <span class="text-muted d-inline-flex align-items-center align-middle ml-4"> <i class="fa fa-eye text-muted fsize-3"></i>&nbsp; <span class="align-middle">14532</span> </span> </div>
+                          <div class="px-4 pt-3"> <button type="button" class="btn btn-primary"><i class="ion ion-md-create"></i>&nbsp; Reply</button> </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      </div>
+      <div style="width:30%; height:100%;" class="pr-2 py-2">
+        <form>
+          <fieldset>
+            <legend>Legend</legend>
+            
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+            </div>
+            
+            <div class="form-group">
+              <label for="exampleTextarea">Example textarea</label>
+              <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+            </div>
+            
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+
+    
+  
+  </div>
+  <!-- Forum -->
+  <div class="tab-pane fade" id="forum">
+      
+    <div style="height:450px;" class="d-flex flex-row">
+      <div style="width:70%; height:100%;" class="p-2">
+        <div class="question-card card mb-4">
+          <!-- Card header -->
+          <div class="card-header">
+            <div class="media flex-wrap w-100 align-items-center"> <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1574583246/AAA/2.jpg" class="d-block ui-w-40 rounded-circle" alt="">
+                <div class="media-body ml-3"> <a href="javascript:void(0)" data-abc="true">Tom Harry</a>
+                    <div class="text-muted small">13 days ago</div>
+                </div>
+                <div class="text-muted small ml-3">
+                    <div>Member since <strong>01/1/2019</strong></div>
+                    <div><strong>134</strong> posts</div>
+                </div>
+            </div>
+        </div>
+          <!--Card content-->
+          <div class="card-body">
+             Does mdboostrap support or supply any forum template like this support forum?                                                                    
+             <hr>
+             <!-- Comments -->
+             <div class="comment-card ml-5">
+                <!-- Single comment -->
+                <small class="comment-item text-muted">
+                   <p class="mb-2">
+                      <strong><a href="https://mdbootstrap.com/profile/?id=72880" target="_blank">myusername</a></strong>
+                      commented a year ago                                                                                                    
+                   </p>
+                   <p>My test comment is here </p>
+                </small>
+                <hr>
+                <!-- Single comment -->
+                <small class="comment-item text-muted">
+                   <p class="mb-2">
+                      <strong><a href="https://mdbootstrap.com/profile/?id=83707" target="_blank">Anderson Eichler</a></strong>
+                      commented a year ago                                                                                                    
+                   </p>
+                   <p>sdasdadsaaaaaaaaaaaa</p>
+                </small>
+                <hr>
+                
+                <div class="form-group mb-0">
+                   <a href="#" class="btn btn-info btn-sm ml-0 comment-form-toggle show_login waves-effect waves-light">Add comment</a>
+                </div>
+             </div>
+             <!-- Comments -->
+          </div>
+       </div>
+      </div>
+      <div style="width:30%; height:100%;" class="pr-2 py-2">
+        <form>
+          <fieldset>
+            <legend>Legend</legend>
+            
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+            </div>
+            
+            <div class="form-group">
+              <label for="exampleTextarea">Example textarea</label>
+              <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+            </div>
+            
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+    
+    
+    
+    
+    
+</div>
+<!--Brochure-->
+<div class="tab-pane fade" id="brochure">
+      
+  <div style="height:450px;" class="d-flex flex-row">
+    <div style="width:70%; height:100%;" class="p-2">
+      
+      <form>
+        <fieldset>
+          <legend>Legend</legend>
+          
+          <div class="form-group">
+            <label for="exampleInputEmail1">성명</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+          </div>
+          <div class="form-group">
+            <label for="exampleInputEmail1">거래처명</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+          </div>
+          <div class="form-group">
+            <label for="exampleInputEmail1">받으실 주소</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+          </div>
+          <div class="form-group">
+            <label for="exampleInputEmail1">연락처</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+          </div>
+          
+          
+          
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </fieldset>
+      </form> 
+    </div>
+    <div style="width:30%; height:100%;" class="pr-2 py-2">
+      <div class="card h-100" style="">
+        <div class="card-header">Header</div>
+        <div class="card-body p-0 ">
+            <div class="list-group">
+                <a href="#" class="list-group-item list-group-item-action active">Cras justo odio</a>
+                <a href="#" class="list-group-item list-group-item-action">Dapibus ac facilisis in</a>
+                <a href="#" class="list-group-item list-group-item-action">Morbi leo risus</a>
+                <a href="#" class="list-group-item list-group-item-action">Cras justo odio</a>
+                <a href="#" class="list-group-item list-group-item-action">Cras justo odio</a>
+                <a href="#" class="list-group-item list-group-item-action">Cras justo odio</a>
+                <a href="#" class="list-group-item list-group-item-action text-white">NONE</a>
+                <a href="#" class="list-group-item list-group-item-action disabled text-white">NONE</a>
+              </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+  
+  
+  
+</div>
+  <div class="tab-pane fade" id="dropdown1">
+    <p>Etsy mixtape wayfarers, ethical wes anderson tofu before they sold out mcsweeney's organic lomo retro fanny pack lo-fi farm-to-table readymade. Messenger bag gentrify pitchfork tattooed craft beer, iphone skateboard locavore carles etsy salvia banksy hoodie helvetica. DIY synth PBR banksy irony. Leggings gentrify squid 8-bit cred pitchfork.</p>
+  </div>
+  <div class="tab-pane fade" id="dropdown2">
+    <p>Trust fund seitan letterpress, keytar raw denim keffiyeh etsy art party before they sold out master cleanse gluten-free squid scenester freegan cosby sweater. Fanny pack portland seitan DIY, art party locavore wolf cliche high life echo park Austin. Cred vinyl keffiyeh DIY salvia PBR, banh mi before they sold out farm-to-table VHS viral locavore cosby sweater.</p>
+  </div>
+</div>
+
+    <!-- Optional JavaScript -->
+    
+    <!-- jQuery, jQuery UI first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- Custom JavaScript -->
+    
+    <script type="text/javascript" src="js/script.js"></script>
+  </body>
+</html>
